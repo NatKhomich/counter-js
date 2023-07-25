@@ -20,7 +20,84 @@
     align-items: center;
     width: 400px;
     height: 400px;
-    background-color: #c992b6;
-    border: deeppink 1px solid;
+    background-color: #468faf;
+    border: #012a4a 1px solid;
     border-radius: 5px;
+}
+
+#numberArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 300px;
+    border-radius: 5px;
+    font-size: 130px;
+    background-color: #a9d6e5;
+    border: #012a4a 1px solid;
+}
+
+#buttons, #settingsButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #468faf;
+    width: 380px;
+    height: 70px;
+    border: #012a4a 1px solid;
+    border-radius: 5px;
+    margin: 5px 0 0 0;
+}
+
+#buttons button, #settingsButtons button {
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #89c2d9;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#buttons button:hover, #settingsButtons button:hover {
+    background-color: #a9d6e5;
+}
+
+#buttons button:active, #settingsButtons button:active {
+    background-color: #5cc4f5;
+}
+
+#settings {
+    display: none;
+}
+
+#settingsArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    background-color: #a9d6e5;
+    width: 380px;
+    height: 300px;
+    border-radius: 5px;
+    font-size: 30px;
+    border: #012a4a 1px solid;
+}
+
+#maxValue, #minValue {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#maxInput, #minInput {
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
 }
